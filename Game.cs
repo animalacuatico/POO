@@ -28,7 +28,7 @@ namespace POO
             {
                 Random randSpawn = new Random();
                 int newSpawn = randSpawn.Next(0, pokeList.Count()); // Escoge entre 0 y el tamaño de la lista pokelist.
-                Console.WriteLine("Un nuevo pokemon ha aparecido: " + pokeList[newSpawn]); // newSpawn es el pokemon escogido
+                Console.WriteLine("Un nuevo pokemon ha aparecido: " + pokeList[newSpawn].GetPokemonName()); // newSpawn es el pokemon escogido
                 Console.WriteLine("Presiona la tecla <0> si quieres intentar capturar el pokemon.");
                 Console.WriteLine("Presiona la tecla <1> si quieres dejar escapar al pokemon.");
                 int answer = int.Parse(Console.ReadLine());
