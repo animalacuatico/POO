@@ -18,7 +18,7 @@
         }
         public void PokemonShout()
         {
-            Console.WriteLine(Name);
+            Console.WriteLine("Grito de pokemon: " + Name + "!");
         }
         public string GetPokemonName()
         {
